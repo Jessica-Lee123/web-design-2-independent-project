@@ -1,8 +1,9 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  background-color: #000;
-  font-family: "proxima-nova",sans-serif;
+  margin: 1em;
+  background-color: #08113B;
+  font-family: Proxima-nova, sans-serif;
   color: #000;
 }
 
@@ -24,7 +25,7 @@ header {
     "left centre right"
     ". center .";
   margin-bottom: 2rem;
-  background-color: #000;
+  background-color: #08113B;
   min-height: 7em;
 }
 
@@ -40,16 +41,62 @@ nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
+}
+
+h1 {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1rem;
+  margin: 0 0 1.5rem;
+}
+
+h2 {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.5rem;
+  margin: 0 0 1.5rem;
 }
 
 main {
   padding: 0 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "banner banner banner banner banner banner"
+    "col1 col2 col3 col4 col5 col6";
+  gap: .75rem;
 }
 
 main p {
   font-size: 2rem;
   margin: 0 0 1.5rem;
+}
+
+.banner-text {
+  grid-area: banner;
+  align-self: end;
+  color: #fff;
+  padding: 1.5rem 1rem;
+}
+
+.banner-text h2 {
+  margin-bottom: 0;
+}
+
+.banner-text p {
+  margin-bottom: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+figure h2 {
+  margin-bottom: 0;
+}
+
+figcaption {
+  padding: 1rem;
 }
 
 footer {

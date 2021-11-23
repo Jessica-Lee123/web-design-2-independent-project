@@ -11,7 +11,7 @@ deliverables: '3 HTML files, 1 CSS file, images'
 **Throughout the rest of the term we’ll be working on the design of a complete independent website.** The subject matter independent project website is completely your choice.
 
 - *Fork this repository.*
-- Code the whole website you planned for your indepenent project.
+- Code the whole website you planned for your independent project.
 - Create a multi-page website: Home, +2 more pages.
 - *It should have real text content.*
 - It should be completely designed, with real images, real colours—and it should look amazing.
