@@ -41,7 +41,6 @@ nav ul {
 
 h1 {
   font-weight: normal;
-  font-style: italic;
   font-size: 1rem;
   margin: 0 0 1.5rem;
   font-size: 32px;
@@ -73,6 +72,7 @@ img {
   object-fit: cover;
   height: 8em;
   background: #fff;
+  background-position: center;
   padding-bottom: 1rem;
 }
 
@@ -80,19 +80,35 @@ img {
   grid-area: banner;
   align-self: end;
   color: #fff;
-  padding: 1.5rem 1rem;
+  padding: 1rem 1rem;
 }
 
 .banner-text p {
   margin-bottom: 0;
 }
 
-figure {
-  margin: 0;
+.carousel {
+  list-style-type: none;
+  display: inline-block;
+  width: 100%;
+  height: 50em;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 
-figcaption {
+.carousel li {
+  display: inline-block;
+  margin: 0;
   padding: 1rem;
+}
+
+@media screen only (min-width; 25em) {
+  .carousel {
+    overflow: visible;
+    white-space: normal;
+  }
+}
+
 }
 
 footer {
