@@ -64,7 +64,16 @@ img {
   width: 100%;
   z-index: 0;
   object-fit: cover;
+}
 
+.banner {
+  display: block;
+  width: 100%;
+  z-index: 0;
+  object-fit: cover;
+  height: 8em;
+  background: #fff;
+  padding-bottom: 1rem;
 }
 
 .banner-text {
