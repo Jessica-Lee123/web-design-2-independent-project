@@ -123,6 +123,7 @@ img {
 
 .banner-text p {
   margin-bottom: 0;
+  font-size: 2em;
 }
 
 .carousel {
@@ -147,14 +148,11 @@ img {
   }
 }
 
-.text {
-  font-size: 14px;
-}
-
-@media (max-width: 480px) {
+@media (min-width: 1em) {
   .text {
-    font-size: 16px;
+    font-size: 3em;
   }
+}
 
   footer {
     display: flex;
