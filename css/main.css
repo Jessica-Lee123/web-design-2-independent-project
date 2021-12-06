@@ -156,7 +156,7 @@ div.container1 {
       padding: 1rem;
     }
 
-    @media screen only (min-width: 2rem) {
+    @media screen and (min-width: 60em) {
       .carousel {
         overflow: visible;
         white-space: normal;
