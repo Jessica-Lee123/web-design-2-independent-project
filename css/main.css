@@ -105,9 +105,9 @@ img {
 }
 
 div.container1 {
-    height: 10em;
-    position: relative }
-div.container1 p {
+  height: 10em;
+  position: relative }
+  div.container1 p {
     margin: 0;
     position: absolute;
     top: 50%;
@@ -117,62 +117,62 @@ div.container1 p {
     padding-bottom: 10rem;
     transform: translate(-50%, -50%) }
 
-.banner {
-  display: block;
-  width: 100%;
-  z-index: 0;
-  object-fit: cover;
-  height: 1rem;
-  background: #08113B;
-  background-position: center;
-  padding-bottom: 1rem;
-}
+    .banner {
+      display: block;
+      width: 100%;
+      z-index: 0;
+      object-fit: cover;
+      height: 1rem;
+      background: #08113B;
+      background-position: center;
+      padding-bottom: 1rem;
+    }
 
-.banner-text {
-  grid-area: banner;
-  align-self: end;
-  color: #fff;
-  padding: 1rem 1rem;
-}
+    .banner-text {
+      grid-area: banner;
+      align-self: end;
+      color: #fff;
+      padding: 1rem 1rem;
+    }
 
-.banner-text p {
-  margin-bottom: 0;
-  font-size: 2rem;
-}
+    .banner-text p {
+      margin-bottom: 0;
+      font-size: 2rem;
+    }
 
-.carousel {
-  list-style-type: none;
-  display: inline-block;
-  width: 100%;
-  height: 50em;
-  overflow-x: auto;
-  white-space: nowrap;
-}
+    .carousel {
+      list-style-type: none;
+      display: inline-block;
+      width: 100%;
+      height: 50em;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
 
-.carousel li {
-  display: inline-block;
-  margin: 0;
-  padding: 1rem;
-}
+    .carousel li {
+      display: inline-block;
+      margin: 0;
+      padding: 1rem;
+    }
 
-@media screen only (min-width; 1rem) {
-  .carousel {
-    overflow: visible;
-    white-space: normal;
-  }
-}
+    @media screen only (min-width; 1rem) {
+      .carousel {
+        overflow: visible;
+        white-space: normal;
+      }
+    }
 
-@media (min-width: 1rem) {
-  .text {
-    font-size: 3rem;
-  }
-}
+    @media (min-width: 1rem) {
+      .text {
+        font-size: 3rem;
+      }
+    }
 
-  footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    font-size: 1rem;
-    align-items: center;
-    color: #fff;
-  }
+    footer {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem;
+      font-size: 1rem;
+      align-items: center;
+      color: #fff;
+    }
