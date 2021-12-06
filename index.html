@@ -9,8 +9,14 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+
+  <ul class="skip-links">
+    <li><a href="#main">Skip to main</a></li>
+  </ul>
+
   <header class="banner" role="banner">
-    <ul class="skip-links">
+    <nav role="navigation">
+      <ul class="button">
       <li>
         <a href="pages/aboutme.html">About Me!</a>
       </li>
@@ -18,12 +24,12 @@
         <a href="pages/portfolio.html">Portfolio!</a>
       </li>
     </ul>
+  </nav>
     <a href="index.html">
       <img src="images/heroes.jpg" alt="heroes">
     </a>
   </header>
-  <main role="main">
-    <nav role="navigation">
+  <main role="main" id="main">
       <a href="index.html">
         <img src="images/banner.jpg" alt="banner">
       </a>
@@ -38,7 +44,6 @@
           </div>
         </article>
       </section>
-    </nav>
   </main>
 
   <a href="index.html">

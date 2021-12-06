@@ -17,7 +17,7 @@ body {
   margin: 0;
 }
 
-.skip-links {
+.button {
   padding: 1rem 2rem;
   font-size: 2rem;
   text-align: center;
@@ -30,9 +30,9 @@ body {
   box-shadow: 0 0.5rem #340143;
 }
 
-.skip-links:hover {background-color: #08113b}
+.button:hover {background-color: #08113b}
 
-.skip-links:active {
+.button:active {
   background-color: #aa36f2;
   box-shadow: 0 0.5rem #340143;
   transform: translateY(0.5rem);
