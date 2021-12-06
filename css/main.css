@@ -29,8 +29,9 @@ header {
   display: flex;
   margin-bottom: 2rem;
   background-color: #08113B;
-  min-height: 7em;
+  min-height: 2em;
   width: 100%;
+  padding-bottom: 1rem;
 }
 
 nav {
@@ -70,12 +71,15 @@ main {
   grid-row-gap: 1rem;
   align-items: center;
   border-bottom: .2rem solid #ffffff;
+  padding: 1rem;
+  padding-top: 20rem;
 }
 
 img {
   width: 100%;
   z-index: 0;
   object-fit: cover;
+  padding: 1rem;
 }
 
 .banner {
@@ -83,7 +87,7 @@ img {
   width: 100%;
   z-index: 0;
   object-fit: cover;
-  height: 8em;
+  height: 1em;
   background: #fff;
   background-position: center;
   padding-bottom: 1rem;
@@ -122,13 +126,20 @@ img {
   }
 }
 
+.text {
+  font-size: 14px;
 }
 
-footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-  font-size: 1rem;
-  align-items: center;
-  color: #fff;
-}
+@media (max-width: 480px) {
+  .text {
+    font-size: 16px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 1rem;
+    align-items: center;
+    color: #fff;
+  }
