@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  margin: 1em;
+  margin: 1rem;
   background-color: #08113B;
   font-family: Proxima-nova, sans-serif;
   color: #fff;
@@ -24,10 +24,10 @@ body {
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-color: #04AA6D;
+  background-color: #AA36F2;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px #999;
+  box-shadow: 0 9px #340143;
 }
 
 .button:hover {background-color: #08113B}
@@ -50,7 +50,7 @@ header {
   display: flex;
   margin-bottom: 2rem;
   background-color: #08113B;
-  min-height: 2em;
+  min-height: 2rem;
   width: 100%;
   padding-bottom: 1rem;
 }
@@ -108,7 +108,7 @@ img {
   width: 100%;
   z-index: 0;
   object-fit: cover;
-  height: 1em;
+  height: 1rem;
   background: #08113B;
   background-position: center;
   padding-bottom: 1rem;
