@@ -2,8 +2,8 @@ html {
   box-sizing: border-box;
   line-height: 1.5;
   margin: 1rem;
-  background-color: #08113B;
-  font-family: 'proxima-nova', sans-serif;
+  background-color: #08113b;
+  font-family: proxima-nova, sans-serif;
   color: #fff;
 }
 
@@ -24,16 +24,16 @@ body {
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-color: #AA36F2;
+  background-color: #aa36f2;
   border: none;
   border-radius: 1rem;
   box-shadow: 0 0.5rem #340143;
 }
 
-.skip-links:hover {background-color: #08113B}
+.skip-links:hover {background-color: #08113b}
 
 .skip-links:active {
-  background-color: #AA36F2;
+  background-color: #aa36f2;
   box-shadow: 0 0.5rem #340143;
   transform: translateY(0.5rem);
 }
@@ -48,7 +48,7 @@ body {
 header {
   display: flex;
   margin-bottom: 2rem;
-  background-color: #08113B;
+  background-color: #08113b;
   min-height: 2rem;
   width: 100%;
   padding-bottom: 1rem;
@@ -72,7 +72,6 @@ h1 {
   font-weight: normal;
   font-size: 1rem;
   margin: 0 0 1.5rem;
-  font-size: 2rem;
   text-align: center;
 }
 
@@ -91,7 +90,7 @@ main {
   "col1";
   grid-row-gap: 1rem;
   align-items: center;
-  border-bottom: .5rem solid #AA36F2;
+  border-bottom: .5rem solid #aa36f2;
   padding: 1rem;
   padding-top: 20rem;
 }
@@ -124,7 +123,7 @@ div.container1 {
       z-index: 0;
       object-fit: cover;
       height: 1rem;
-      background: #08113B;
+      background: #08113b;
       background-position: center;
       padding-bottom: 1rem;
     }
