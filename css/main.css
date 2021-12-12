@@ -38,6 +38,7 @@ body {
 
 .nav1 {
   width: 15%;
+  margin: 1rem;
   padding: 1rem 2rem;
   font-size: 2rem;
   text-align: center;
@@ -64,6 +65,7 @@ body {
 
 .nav2 {
   width: 15%;
+  margin: 1rem;
   padding: 1rem 2rem;
   font-size: 2rem;
   text-align: center;
