@@ -17,7 +17,7 @@ body {
   margin: 0;
 }
 
-.button {
+.nav {
   padding: 1rem 2rem;
   font-size: 2rem;
   text-align: center;
@@ -30,11 +30,11 @@ body {
   box-shadow: 0 1rem #340143;
 }
 
-.button:hover {
+.nav:hover {
   background-color: #08113b;
 }
 
-.button:active {
+.nav:active {
   background-color: #aa36f2;
   box-shadow: 0 1rem #340143;
   transform: translateY(1rem);
