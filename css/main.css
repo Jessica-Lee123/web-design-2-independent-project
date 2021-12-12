@@ -50,6 +50,7 @@ body {
   border-radius: 1rem;
   box-shadow: 0 1rem #340143;
   transition-duration: 1s;
+  float: left;
 }
 
 .nav1:hover {
@@ -64,6 +65,7 @@ body {
 }
 
 .nav2 {
+  float: right;
   width: 15%;
   margin: 1rem;
   padding: 1rem 2rem;
