@@ -43,18 +43,18 @@ body {
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-color: #aa36f2;
+  background-color: #fff;
   border: none;
   border-radius: 1rem;
   box-shadow: 0 1rem #340143;
 }
 
 .nav:hover {
-  background-color: #08113b;
+  background-color: #bbb5d8;
 }
 
 .nav:active {
-  background-color: #aa36f2;
+  background-color: #bbb5d8;
   box-shadow: 0 1rem #340143;
   transform: translateY(1rem);
 }
@@ -73,6 +73,7 @@ header {
   min-height: 2rem;
   width: 100%;
   padding-bottom: 1rem;
+  color: #fff;
 }
 
 nav {
@@ -102,7 +103,7 @@ h1 {
 }
 
 main {
-
+  color: #fff;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
@@ -111,7 +112,7 @@ main {
     "col1";
   grid-row-gap: 1rem;
   align-items: center;
-  border-bottom: .5rem solid #aa36f2;
+  border-bottom: .5rem solid #fff;
   padding: 1rem;
   padding-top: 20rem;
 }
@@ -150,6 +151,7 @@ div.container1 p {
   background: #08113b;
   background-position: center;
   padding-bottom: 1rem;
+  color: #fff;
 }
 
 .banner-text {
@@ -162,6 +164,7 @@ div.container1 p {
 .banner-text p {
   margin-bottom: 0;
   font-size: 2rem;
+  color: #fff;
 }
 
 .carousel {
